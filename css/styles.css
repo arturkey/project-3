@@ -1,0 +1,108 @@
+
+*{
+margin: 0;
+padding:0;
+box-sizing: border-box;
+}
+body{
+  font-family: 'Poppins', sans-serif;
+  background-color: hsl(0, 0%, 98%);
+  color: hsl(234, 12%, 34%);
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.container{
+  width: 90%;
+  max-width: 1100px;
+  padding: auto;
+}
+.header{
+  text-align: center;
+  margin-top: 5%;
+}
+.header1{
+  font-weight: 200;
+  font-size: 2.5rem;
+}
+.header2{
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+.header3{
+  font-weight: 200;
+  font-size: 1rem;
+  margin-top: 20px;
+  letter-spacing: 1px;
+}
+.card1{
+  width:300px;
+  text-align: left;
+  margin:5% auto 5% 2.5%;
+  padding: 3% 0 3% 0;
+  border-top: 0.5rem hsl(180, 62%, 55%) solid;
+  border-radius: 5px;
+  box-shadow: 1px 10px 5px 5px rgba(0,0,0,0.1);
+  top:200px;
+
+}
+.card-header1{
+  font-weight: 700;
+  margin-left: 20px;
+  font-size: 1.3rem;
+}
+.card-body{
+  font-weight: 200;
+
+}
+.card-footer1{
+  text-align: right;
+  margin-right: 20px;
+}
+.card2{
+  width:300px;
+  text-align: left;
+  margin:5% 0 5% 0;
+  padding: 3% 0 3% 0;
+  border-top: 0.5rem hsl(0, 78%, 62%) solid;
+  border-radius: 5px;
+  box-shadow: 1px 10px 5px 5px rgba(0,0,0,0.1);
+  left:35%;
+  bottom: 300px;
+
+
+}
+.card3{
+  width:300px;
+  text-align: left;
+  margin:5% 0 5% 0;
+  padding: 3% 0 3% 0;
+  border-top: 0.5rem hsl(34, 97%, 64%) solid;
+  border-radius: 5px;
+  box-shadow: 1px 10px 5px 5px rgba(0,0,0,0.1);
+  left:35%;
+  bottom: 300px;
+
+}
+.card4{
+  width:300px;
+  text-align: left;
+  margin:5% 2.5% 5% 0;
+  padding: 3% 0 3% 0;
+  border-top: 0.5rem hsl(212, 86%, 64%) solid;
+  border-radius: 5px;
+  box-shadow: 1px 10px 5px 5px rgba(0,0,0,0.1);
+  left:67%;
+  bottom:123vh;
+  right: auto;
+  top: auto;
+}
+.card{
+  position: relative;
+}
+.cards{
+  height:650px;
+
+
+}
